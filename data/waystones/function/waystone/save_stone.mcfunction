@@ -1,0 +1,1 @@
+$data modify storage waystones:players $(player_id) append value {x:$(x),y:$(y),z:$(z),dimension:"$(dimension)",name:"$(name)"}

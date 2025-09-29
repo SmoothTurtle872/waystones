@@ -1,0 +1,1 @@
+item modify entity @s contents [{"function":"minecraft:set_item","item":"minecraft:armor_stand"},{"function":"minecraft:set_components","components":{"minecraft:entity_data":{"id":"minecraft:armor_stand","Tags":["waystones.waystone.setup"]},"minecraft:item_name":{"text":"Waystone","color":"yellow"},"item_model":"waystones:waystone"},"conditions":[]}]

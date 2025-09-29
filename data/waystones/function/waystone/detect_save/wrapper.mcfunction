@@ -1,0 +1,1 @@
+return run function waystones:waystone/detect_save/exists with storage waystones:temp stone

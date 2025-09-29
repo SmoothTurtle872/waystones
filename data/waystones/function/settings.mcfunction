@@ -1,0 +1,1 @@
+function waystones:settings/display with storage waystones:settings

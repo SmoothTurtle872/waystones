@@ -1,0 +1,1 @@
+return run function waystones:get_id/internal with entity @s

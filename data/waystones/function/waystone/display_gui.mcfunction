@@ -1,0 +1,1 @@
+$dialog show @s {type:"multi_action",title:"$(name)",pause:false,actions:$(stones)}

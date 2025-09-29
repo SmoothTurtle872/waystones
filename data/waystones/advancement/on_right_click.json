@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"right_click": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:compass",
+					"count": 1,
+					"components": {
+                "minecraft:custom_data": {
+                  "linking_compass": true
+                }
+              }
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "waystones:on_right_click"
+	}
+}

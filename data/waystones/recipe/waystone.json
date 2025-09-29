@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"pap",
+		"ele",
+		"apa"
+	],
+	"key": {
+		"p": "minecraft:ender_pearl",
+		"e": "minecraft:ender_eye",
+		"l": "minecraft:lodestone",
+        "a": "minecraft:amethyst_shard"
+	},
+	"result": {
+		"id": "minecraft:armor_stand",
+		"components": {
+			"minecraft:item_name": {
+				"text": "Waystone",
+				"color": "yellow"
+			},
+			"minecraft:item_model": "waystones:waystone",
+			"minecraft:entity_data": {
+				"id": "minecraft:armor_stand",
+				"Tags": [
+					"waystones.waystone.setup"
+				]
+			}
+		},
+		"count": 1
+	}
+}

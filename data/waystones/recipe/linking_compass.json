@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" e ",
+		"ere",
+		" e "
+	],
+	"key": {
+		"r": "minecraft:recovery_compass",
+		"e": "minecraft:ender_pearl"
+	},
+	"result": {
+		"id": "minecraft:compass",
+		"components": {
+			"minecraft:custom_data": {
+				"linking_compass": true
+			},
+			"minecraft:item_name": {
+				"text": "Linking Compass",
+				"color": "yellow"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:item_model": "waystones:linking_compass"
+		},
+		"count": 1
+	}
+}

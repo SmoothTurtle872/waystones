@@ -1,0 +1,1 @@
+$return run data get storage waystones:players $(player_id)[{x:$(x),y:$(y),z:$(z),dimension:"$(dimension)",name:"$(name)"}]

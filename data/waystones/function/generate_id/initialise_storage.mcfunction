@@ -1,0 +1,1 @@
+$data modify storage waystones:players $(id) set value []

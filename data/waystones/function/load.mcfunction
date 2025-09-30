@@ -7,3 +7,5 @@ scoreboard players set initialised waystones.internal 1
 
 scoreboard objectives add waystones.id dummy
 execute unless score next waystones.id = @s waystones.id run scoreboard players set next waystones.id 0
+
+scoreboard objectives add waystones.teleport trigger

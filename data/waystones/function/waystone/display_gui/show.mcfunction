@@ -1,0 +1,1 @@
+$dialog show @s {type:"multi_action",title:"Waystone",pause:false,actions:$(stones),exit_action:{label:"Cancel",action:{type:"run_command",command:"trigger waystones.teleport set -2"}}}

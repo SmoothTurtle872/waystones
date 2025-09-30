@@ -1,0 +1,1 @@
+$data modify storage waystones:temp player.stones append value {label:"$(name)",action:{type:"run_command",command:"trigger waystones.teleport set $(id)"},tooltip:{text:"X:$(x), Y:$(y), Z:$(z), Dimension:$(dimension)"}}

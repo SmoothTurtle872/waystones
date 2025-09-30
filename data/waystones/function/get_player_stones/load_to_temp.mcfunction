@@ -1,0 +1,1 @@
+$data modify storage waystones:temp player.loop.array set from storage waystones:players $(player_id)

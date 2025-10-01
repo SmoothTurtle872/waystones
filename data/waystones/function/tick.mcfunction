@@ -4,4 +4,5 @@ execute as @e[type=interaction, tag=waystones.waystone, tag=waystones.waystone.h
 execute as @a[tag=!waystones.has_id] run function waystones:generate_id with entity @s
 
 execute as @a[scores={waystones.teleport=..-2}] run scoreboard players reset @s waystones.teleport
+execute as @a[scores={waystones.teleport=0..}] run function waystones:waystone/perform_teleport
 execute as @a[scores={waystones.teleport=0..}] run scoreboard players reset @s waystones.teleport

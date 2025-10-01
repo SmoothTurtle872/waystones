@@ -1,0 +1,1 @@
+return run function waystones:waystone/perform_teleport/detect_still_exists/internal with storage waystones:temp player.selected_stone

@@ -1,0 +1,1 @@
+$data modify storage waystones:temp player.selected_stone set from storage waystones:temp player.loop.array[$(selected_stone)]

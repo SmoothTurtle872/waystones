@@ -1,0 +1,1 @@
+$data remove storage waystones:players $(player_id)[{name:"$(name)",x:$(x),y:$(y),z:$(z),dimension:"$(dimension)"}]
